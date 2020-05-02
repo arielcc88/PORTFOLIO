@@ -18,6 +18,10 @@ a, a:hover, address, address:hover {
   text-decoration: none;
 }
 
+ul li {
+  list-style: none; 
+}
+
 /*
 ========
 Nav-Bar
@@ -107,9 +111,9 @@ Home
 }
 
 .acp-header-info h2, .acp-header-info h4, .acp-header-info ul {
-    color: #000;
-    opacity: 0.8;
-  }
+  color: #000;
+  opacity: 0.8;
+}
 
 .acp-header-info h2 {
   font-size: 45px;
@@ -134,7 +138,6 @@ Home
 
 .acp-header-info ul li {
   margin: 10px 0;
-  list-style: none;
   font-weight: bold;
 }
 
@@ -200,6 +203,40 @@ About
 .acp-about-desc h2, .acp-about-desc p {
   font-weight: bold;
 }
+
+.acp-about-tag {
+  word-break: break-all;
+  margin: 10px 0 10px 0;
+}
+
+.acp-about-tag ul {
+  padding: 0;
+}
+
+.acp-about-tag ul li {
+  margin: 0px 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 4px 0px;
+  display: inline-block;
+}
+
+.acp-about-tag ul li span{
+  color: #fff;
+  background-color: rgb(250, 106, 106);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/*
+========
+Portfolio
+========
+*/
+.acp-portfolio .section-title {
+  
+}
+
 
 /*
 ========
