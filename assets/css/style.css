@@ -194,13 +194,13 @@ About
   padding: 40px 0;
 }
 
-.acp-about-desc {
+.acp-about-desc, .section-title h2, .card-body h5, .card-body p {
   color: #000;
   opacity: 0.8;
   text-align: center;
 }
 
-.acp-about-desc h2, .acp-about-desc p {
+.acp-about-desc h2, .acp-about-desc p, .section-title h2, .card-body h5 {
   font-weight: bold;
 }
 
@@ -233,8 +233,8 @@ About
 Portfolio
 ========
 */
-.acp-portfolio .section-title {
-  
+.acp-card-img {
+  padding: 25px;
 }
 
 
