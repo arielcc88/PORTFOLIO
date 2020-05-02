@@ -200,7 +200,7 @@ About
   text-align: center;
 }
 
-.acp-about-desc h2, .acp-about-desc p, .section-title h2, .card-body h5 {
+.acp-about-desc h2, .acp-about-desc p, .section-title h2, .card-body h5, .card-body p {
   font-weight: bold;
 }
 
@@ -235,6 +235,22 @@ Portfolio
 */
 .acp-card-img {
   padding: 25px;
+}
+
+.acp-card-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.acp-card-footer a {
+  margin: 0 10px 0 10px;
+}
+
+.acp-btn-primary {
+  color: #fff;
+  background-color: rgb(250, 106, 106);
+  border-color: rgb(250, 106, 106);
 }
 
 
