@@ -360,8 +360,8 @@ Responsive
   ========
   */
   .acp-home {
-    height: 800px;
-    padding: 100px;
+    height: 700px;
+    padding: 50px;
   }
   .acp-header-info {
     padding: 80px 0 0 0;
@@ -404,52 +404,6 @@ Responsive
     margin-bottom: 30px;
   }
 
-/*  .acp-header-info ul {
-    margin: 20px 0 0 0;
-    padding: 0;
-    color: #000;
-  }
-
-  .acp-header-info ul li {
-    margin: 10px 0;
-    list-style: none;
-    font-weight: bold;
-  }*/
-
-/*  .acp-header-info ul li:hover{
-    color: rgb(250, 106, 106);
-  }
-
-  .acp-header-info ul li .fa {
-    margin: 0 15px 0 0;
-    display: inline-block;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }*/
-
-/*  .acp-header-info ul li address {
-    display: inline-block;
-    text-decoration: none;
-  }  
-
-  .acp-social-icon {
-    display: flex;
-    margin: 0;
-  }
-
-  .acp-header-info .acp-social-icon .fa {
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: bold;
-    padding: 4px 14px;
-    margin-right: 10px;
-    border-radius: 3px;
-  }  
-
-  .acp-header-info .acp-social-icon .fa:hover{
-    background-color: #000;
-    color: rgb(250, 106, 106);
-  }*/
   .acp-social-icon {
     display: flex;
     justify-content: flex-start;
@@ -462,7 +416,7 @@ Responsive
 
   .acp-home .hero-img .img-border {
     height: auto;
-    width: 400px;
+    width: 350px;
     border: 20px solid rgba(0, 0, 0, 0.07);
     margin: 0 auto;
     border-radius: 20%;
@@ -474,6 +428,26 @@ Responsive
     margin: 0 auto;
     border: 20px solid rgba(0, 0, 0, 0.17);
     border-radius: 17%;
-    text-align: center;1
+    text-align: center;
+  }
+
+  /*
+  ========
+  About
+  ========
+  */
+
+  .acp-about .acp-about-desc {
+    padding: 25px;
+  }
+
+  /*
+  ========
+  Footer
+  ========
+  */
+  .acp-footer .acp-ftsocial-ctner .acp-social-icon{
+    display: flex;
+    justify-content: center;
   }
 }
