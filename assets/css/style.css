@@ -300,6 +300,21 @@ Contact
   border-radius: 20px;
 }
 
+.acp-footer .acp-social-icon {
+  padding: 0;
+}
+
+.acp-footer .foot-note {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.acp-footer .section-separator {
+  padding: 20px;
+}
+
+
+
 /*
 ========
 Responsive
