@@ -166,7 +166,7 @@ Home
   margin: 0;
 }
 
-.acp-header-info .acp-social-icon .fa {
+.acp-header-info .acp-social-icon .fa, .acp-footer .acp-social-icon .fa {
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -175,7 +175,7 @@ Home
   border-radius: 3px;
 }  
 
-.acp-header-info .acp-social-icon .fa:hover{
+.acp-header-info .acp-social-icon .fa:hover, .acp-footer .acp-social-icon .fa:hover{
   background-color: #000;
   color: rgb(250, 106, 106);
 }
@@ -253,6 +253,52 @@ Portfolio
   border-color: rgb(250, 106, 106);
 }
 
+/*
+========
+Contact
+========
+*/
+.map-image {
+  background-image: url(../images/ct-form-bgimg.png);
+}
+
+.img-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center center;
+}
+
+.acp-footer .form-control, .acp-footer .form-message {
+  padding: 20px;
+  margin: 0 0 20px 0;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.37);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.37); 
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+.acp-footer .form-control {
+  height: 40px;
+}
+
+.acp-footer .form-message {
+  width: 100%;
+  height: 170px;
+}
+
+.acp-footer .btn-form {
+  padding: 20px;
+}
+
+.acp-footer .btn.btn-submit-fill {
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(250, 106, 106);
+  border-color: rgb(250, 106, 106);
+  border-radius: 20px;
+}
 
 /*
 ========
