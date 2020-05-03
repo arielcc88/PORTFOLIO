@@ -274,7 +274,7 @@ Portfolio
   border-color: rgb(250, 106, 106);
 }
 
-.acp-portfolio .card alert{
+.acp-portfolio .card .alert{
   color: #000;
   font-weight: bold;
   opacity: 0.8;
