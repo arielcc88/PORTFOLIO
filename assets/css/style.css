@@ -191,7 +191,17 @@ About
 ========
 */
 .section-separator {
-  padding: 40px 0;
+  padding: 30px 0;
+}
+
+.acp-about-img-ctner {
+  display: flex;
+  justify-content: center;
+}
+
+.acp-about-img-ctner .acp-about-img {
+  width: 330px;
+  height: 330px;
 }
 
 .acp-about-desc, .section-title h2, .card-body h5, .card-body p {
@@ -233,8 +243,19 @@ About
 Portfolio
 ========
 */
+.acp-portfolio .card-img-ctner{
+  display: flex;
+  justify-content: center;
+}
+
 .acp-card-img {
   padding: 25px;
+  width: 328px;
+  height: 320px;
+}
+
+.acp-portfolio .card{
+  justify-content: center;
 }
 
 .acp-card-footer {
@@ -313,7 +334,10 @@ Contact
   padding: 20px;
 }
 
-
+.acp-footer .acp-ftsocial-ctner {
+  display: flex;
+  justify-content: center;
+}
 
 /*
 ========
