@@ -251,7 +251,7 @@ Portfolio
 .acp-card-img {
   padding: 25px;
   width: 328px;
-  height: 320px;
+  height: 300px;
 }
 
 .acp-portfolio .card{
@@ -274,6 +274,12 @@ Portfolio
   border-color: rgb(250, 106, 106);
 }
 
+.acp-portfolio .card alert{
+  color: #000;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
 /*
 ========
 Contact
@@ -288,6 +294,11 @@ Contact
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center center;
+}
+
+.acp-footer .section-title span{
+  font-weight: bold;
+  color: #000;
 }
 
 .acp-footer .form-control, .acp-footer .form-message {
@@ -344,6 +355,12 @@ Contact
 Responsive
 ========
 */
+@media (min-width: 640px) {
+  .acp-card-img{
+    height: 220px;
+  }
+}
+
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
@@ -431,6 +448,10 @@ Responsive
     text-align: center;
   }
 
+  .acp-card-img{
+    height: 300px;
+  }
+
   /*
   ========
   About
@@ -446,8 +467,49 @@ Responsive
   Footer
   ========
   */
+  .acp-footer {
+    padding: 50px 0 0 0;
+  }
   .acp-footer .acp-ftsocial-ctner .acp-social-icon{
     display: flex;
     justify-content: center;
   }
+}
+
+/*Ipad landscape and larger*/
+@media (min-width: 1024px) {
+  .acp-home {
+    height: 600px;
+    padding: 180px 0 0 0;
+    margin: 0 0 100px 0;
+  }
+
+  .acp-header-info {
+    padding: 0 0 0 80px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .acp-about {
+    height: 580px;
+  }
+  
+  .acp-about .section-separator {
+    padding: 150px 0;
+  }
+  .acp-about-img-ctner .acp-about-img {
+    width: 380px;
+    height: auto;
+  }
+
+  .acp-about .acp-about-ctner {
+    display: flex;
+    align-items: center;
+  }
+
+  .acp-about .acp-about-desc {
+    padding: 25px 0 0 0;
+  }
+
+
 }
