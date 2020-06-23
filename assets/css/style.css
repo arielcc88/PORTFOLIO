@@ -191,7 +191,7 @@ About
 ========
 */
 .section-separator {
-  padding: 30px 0;
+  padding: 150px 0;
 }
 
 .acp-about-img-ctner {
@@ -510,6 +510,7 @@ Responsive
   .acp-about .acp-about-desc {
     padding: 25px 0 0 0;
   }
-
-
+  .card-deck-ctner {
+    margin: 20px 0 0 0;
+  }
 }
