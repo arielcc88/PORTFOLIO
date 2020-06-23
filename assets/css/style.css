@@ -191,7 +191,7 @@ About
 ========
 */
 .section-separator {
-  padding: 150px 0;
+  padding: 30px 0;
 }
 
 .acp-about-img-ctner {
@@ -494,11 +494,16 @@ Responsive
     height: 580px;
   }
   
-  .acp-about .section-separator {
+  /*.acp-about .section-separator {
+    padding: 150px 0;
+  }*/
+
+  .section-separator {
     padding: 150px 0;
   }
+
   .acp-about-img-ctner .acp-about-img {
-    width: 380px;
+    width: 500px;
     height: auto;
   }
 
