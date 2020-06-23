@@ -7,7 +7,9 @@ $(document).ready(function(){
 			$("#navbar-fixed-top").addClass("navbar-drop-shadow");
 			//console.log("pos", $(this).scrollTop());
 		} else {
-			$("#navbar-fixed-top").removeClass("navbar-drop-shadow");	
+			$("#navbar-fixed-top").removeClass("navbar-drop-shadow");
+			//adding "active" for acp-home section
+			$(".navbar-nav > li > a").first().addClass("active");	
 		}
 	});
 });

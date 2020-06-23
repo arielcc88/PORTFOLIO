@@ -52,7 +52,7 @@ Nav-Bar
   line-height: 30px;
 }
 
-.navbar .navbar-nav li.active a {
+.navbar .navbar-nav li a.active {
   border-color: rgb(250, 106, 106);
 }
 
