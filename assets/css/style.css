@@ -210,7 +210,7 @@ About
   text-align: center;
 }
 
-.acp-about-desc h2, .acp-about-desc p, .section-title h2, .card-body h5, .card-body p {
+.acp-about-desc h2, .acp-about-desc p, .section-title h2, .card-body h5, .card-body p, .modal-title {
   font-weight: bold;
 }
 
@@ -349,6 +349,10 @@ Contact
   display: flex;
   justify-content: center;
 }
+
+.modal-title, .modal-body p {color: #000; opacity: 0.8;}
+
+.modal-body li a {width: 90%; margin: 10px 0}
 
 /*
 ========
