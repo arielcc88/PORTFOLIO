@@ -8,6 +8,24 @@ const CLIlinks = {
 			"https://drive.google.com/file/d/1u2xOsvRGj993LnGEN9G5v3Ma38s7VD62/view?usp=sharing",
 			"https://drive.google.com/file/d/1keS7jNQ5ZV22MXhpaKCogg_mRosPZZmU/view?usp=sharing"
 		]
+	},
+	"2": {
+		"title": "Team Profile Generator",
+		"description": "The Team Profile Generator is a CLI App. Below you can find links to videos demonstrating the app in action locally.",
+		"resources": [
+			"https://drive.google.com/file/d/1yAkj98XfslEFYrm6k2fCZvNFfCOPyxR7/view?usp=sharing", 
+			"https://drive.google.com/file/d/1uscqKqYUp5tAHOiiosx0wiX7GyVlGXSL/view?usp=sharing", 
+			"https://drive.google.com/file/d/1cVC27J5iPv3e9Jx0n9wlnuIG4Myabs2f/view?usp=sharing",
+			"https://drive.google.com/file/d/1nfA-3SKBhhIqzHMbjquRbc-pe3v616Xt/view?usp=sharing"
+		]
+	},
+	"3": {
+		"title": "Employee Management System",
+		"description": "The Employee Management System is a CLI App. Below you can find links to videos demonstrating the app in action locally.",
+		"resources": [
+			"https://drive.google.com/file/d/1Xw5fmJreReTE8yM_7Ax-cYejVWFFSAky/view?usp=sharing", 
+			"https://drive.google.com/file/d/1NeK6SPYWBbVlLEp8HBOuCjwyRt2Em_l-/view?usp=sharing", 
+		]
 	}
 };
 
